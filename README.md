@@ -6,7 +6,7 @@
 This program aims to handle printing an invoice automatically. Whether you're a freelancer or need to show somebody how much they owe you, with this program you won't have to open Adobe Acrobat or Word; instead, this program will handle the process of making the PDF for you. All you need is this program, its dependencies (which you can see in the "requirements.txt" file), and the information you want to input.
 
 #### How to open:
-In order to open the program, download the current version of Python, open a CLI (command line interface), and navigate into the "project" folder which contains the program "project.py". Then execute "python project.py" and the program should start.
+In order to open the program, download the current version of Python, open a CLI (command line interface), and navigate into the folder of this repository, which contains the program "project.py". Then execute "python project.py" and the program should start.
 
 #### After opening:
 After opening the file, you will be met with a welcome message that will instruct you to either press Enter to start the program or to press Ctrl+D to close the program.
@@ -19,7 +19,7 @@ After pressing Enter, you will be instructed again to press Enter without inputt
 
 After typing "chair" and pressing Enter, you will be prompted for the cost of the item in Euros. Enter a positive number, either an integer like "1" or a float like "1.2", and press Enter to confirm your input. If you don't put in a valid number, the program will prompt you again. After inputting your item cost, like "100", the program will prompt you for how many of those items (in this example, the chair) you sold. Again, type in a number that can be converted to a float, like "5", and press Enter.
 
-Now the program repeats the process and asks you for your next item. You can input as many items as you like. Once you have typed in another item like "desk", the program will prompt you, as before, for the item cost and quantity. After you have input all your items and the program prompts you for the next line item, simply press Enter without typing anything else. The program will then immediately print the finished PDF invoice for you. Then it will tell you "Invoice_(number).pdf is done!", whereby (number) is a random 7-digit number. The PDF should now be visible in the project folder.
+Now the program repeats the process and asks you for your next item. You can input as many items as you like. Once you have typed in another item like "desk", the program will prompt you, as before, for the item cost and quantity. After you have input all your items and the program prompts you for the next line item, simply press Enter without typing anything else. The program will then immediately print the finished PDF invoice for you. Then it will tell you "Invoice_(number).pdf is done!", whereby (number) is a random 7-digit number. The PDF should now be visible in the same folder.
 
 #### The PDF:
 The PDF itself is very simple. At the top, you have the centered headline "Invoice", then you have 4 rows with "Item Description" (the line item you input), "Quantity" (the quantity you input), the "Unit Price" (the item cost you literally typed in), and the "Total".
